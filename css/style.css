@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+
+:root {
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+
+    /* (graphic design text) */
+    --dark-desaturated-cyan: hsl(167, 40%, 24%); 
+
+    /* (photography text) */
+    --dark-blue: hsl(198, 62%, 26%);
+
+    /* (footer) */
+    --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+}
+
+
+.top-section h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    height: 365px;
+    background: url("/images/icon-arrow-down.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.top-section {
+    background: url("/images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    position: relative;
+}
+
+
+.right-side {
+    display: none;
+}
+
+.show-menu {
+    display: flex;
+    height: 350px;
+    background-color: var(--white);
+    width: 88%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.right-side a:last-child {
+    background-color: var(--yellow);
+    padding: 16px 38px;
+    border-radius: 46px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+.message h2{
+    font-family: 'Fraunces', serif;
+    margin: 60px 30px 30px 30px;
+    font-size: 2rem;
+}
+
+.message p {
+    margin: 0 30px;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.message a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 60px 0;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: 6px underline rgb(248, 178, 172);
+}
+
+.parent-relative {
+    position: relative;
+}
+
+.child-absolute {
+    position: absolute;
+    bottom: 70px;
+    font-size: 1.2rem;
+    
+}
+
+.child-absolute h2 {
+    font-family: 'Fraunces', serif;
+    
+}
+
+.child-absolute p {
+    margin: 20px 20px 5px 20px;
+    font-size: 1rem;
+}
+
+.graphic-design {
+    color: var(--dark-desaturated-cyan);
+}
+
+.photography {
+    color: var(--dark-blue);
+}
+
+.testimonials h2 {
+    color: var(--grayish-blue);
+    text-transform: uppercase;
+    margin: 50px;
+    font-size: 1.3rem;
+}
+
+.single-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.single-testimonial img{
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.single-testimonial h5 {
+    color: var(--very-dark-grayish-blue);
+    font-size: 1.1rem;
+    margin: 0 30px;
+    margin-bottom: 30px;
+}
+
+.single-testimonial p {
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer {
+    background-color: rgb(147, 218, 205);
+    color: #2C7566;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    height: 280px;
+}
+
+.logo2 {
+    height: 26px;
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-links {
+    margin-top: 40px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #509d8e;
+    font-size: 0.9rem;
+    margin: 0 22px;
+
+
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media img {
+    margin: 0 15px;
+}
