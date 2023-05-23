@@ -49,14 +49,16 @@ h1, h2, h3 {
     text-transform: uppercase;
     font-size: 3rem;
     height: 365px;
-    background: url("/images/icon-arrow-down.svg");
+    /* background: url("/images/icon-arrow-down.svg"); */
+    background: url("/images/sunnyside-landing-page/icon-arrow-down.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     padding-top: 60px;
 }
 
 .top-section {
-    background: url("/images/mobile/image-header.jpg");
+    /* background: url("/images/mobile/image-header.jpg"); */
+    background: url("/images/sunnyside-landing-page/mobile/image-header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
