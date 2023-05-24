@@ -69,6 +69,7 @@ h1, h2, h3 {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 20px;
     position: relative;
 }
@@ -125,6 +126,7 @@ nav {
 
 .transform .image {
     background: url("/sunnyside-landing-page/images/mobile/image-transform.jpg");
+    /* background: url("/images/mobile/image-transform.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,6 +135,7 @@ nav {
 
 .stand-out .image {
     background: url("/sunnyside-landing-page/images/mobile/image-stand-out.jpg");
+    /* background: url("/images/mobile/image-stand-out.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,6 +211,7 @@ nav {
 
 .graphic-design-background {
     background: url("/sunnyside-landing-page/images/mobile/image-graphic-design.jpg");
+    /* background: url("/images/mobile/image-graphic-design.jpg"); */
 }
 
 .graphic-design {
@@ -217,6 +221,7 @@ nav {
 
 .photography-background {
     background: url("/sunnyside-landing-page/images/mobile/image-photography.jpg");
+    /* background: url("/images/mobile/image-photography.jpg"); */
 }
 
 .graphic-design-background,
@@ -271,15 +276,19 @@ nav {
 
 .milkbottles {
     background: url("/sunnyside-landing-page/images/mobile/image-gallery-milkbottles.jpg");
+    /* background: url("/images/mobile/image-gallery-milkbottles.jpg"); */
 }
 .orange {
     background: url("/sunnyside-landing-page/images/mobile/image-gallery-orange.jpg");
+    /* background: url("/images/mobile/image-gallery-orange.jpg"); */
 }
 .cone {
     background: url("/sunnyside-landing-page/images/mobile/image-gallery-cone.jpg");
+    /* background: url("/images/mobile/image-gallery-cone.jpg"); */
 }
 .sugar-cubes {
     background: url("/sunnyside-landing-page/images/mobile/image-gallery-sugar-cubes.jpg");
+    /* background: url("/images/mobile/image-gallery-sugar-cubes.jpg"); */
 }
 
 .milkbottles,
@@ -351,6 +360,7 @@ nav {
         font-size: 2.4rem;
         height: 275px;
         background: url("/sunnyside-landing-page/images/icon-arrow-down.svg");
+        /* background: url("/images/icon-arrow-down.svg"); */
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: 30px;
@@ -362,13 +372,15 @@ nav {
         display: flex;
         align-items: center;
     }
+    
+    .hamburger, .triangle, .right-side {
+        display: none;
+    }
 
     .right-side {
         display: flex;
-        flex-direction: row;
         background-color: transparent;
         align-items: center;
-        position: static;
     }
 
     .right-side a {
@@ -378,9 +390,6 @@ nav {
         font-size: 0.9rem;
     }
 
-    .hamburger, .triangle {
-        display: none;
-    }
 
     .right-side a:last-child {
         background-color: var(--white);
@@ -401,6 +410,7 @@ nav {
 
     .transform .image {
         background: url("/sunnyside-landing-page/images/desktop/image-transform.jpg");
+        /* background: url("/images/desktop/image-transform.jpg"); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -410,6 +420,7 @@ nav {
 
     .stand-out .image {
         background: url("/sunnyside-landing-page/images/desktop/image-stand-out.jpg");
+        /* background: url("/images/desktop/image-stand-out.jpg"); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -441,10 +452,12 @@ nav {
   
     .graphic-design-background {
         background: url("/sunnyside-landing-page/images/desktop/image-graphic-design.jpg");
+        /* background: url("/images/desktop/image-graphic-design.jpg"); */
     }
 
     .photography-background {
         background: url("/sunnyside-landing-page/images/desktop/image-photography.jpg");
+        /* background: url("/images/desktop/image-photography.jpg"); */
     }
 
     .graphic-design-background,
@@ -481,18 +494,22 @@ nav {
 
     .milkbottles {
         background: url("/sunnyside-landing-page/images/desktop/image-gallery-milkbottles.jpg");
+        /* background: url("/images/desktop/image-gallery-milkbottles.jpg"); */
     }
 
     .orange {
         background: url("/sunnyside-landing-page/images/desktop/image-gallery-orange.jpg");
+        /* background: url("/images/desktop/image-gallery-orange.jpg"); */
     }
 
     .cone {
         background: url("/sunnyside-landing-page/images/desktop/image-gallery-cone.jpg");
+        /* background: url("/images/desktop/image-gallery-cone.jpg"); */
     }
 
     .sugar-cubes {
         background: url("/sunnyside-landing-page/images/desktop/image-gallery-sugarcubes.jpg");
+        /* background: url("/images/desktop/image-gallery-sugarcubes.jpg"); */
     }
 
     .milkbottles,
