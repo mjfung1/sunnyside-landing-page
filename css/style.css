@@ -504,9 +504,9 @@ nav {
     }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 870px) {
     .message h2 {
-        font-size: 2.4rem;
+        font-size: 2.7rem;
     }
 
     .child-absolute p {
