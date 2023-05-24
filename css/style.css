@@ -338,8 +338,8 @@ nav {
 
 @media (min-width:700px) {
     .top-section {
-        background: url("/images/desktop/image-header.jpg");
-        /* background: url("/sunnyside-landing-page/images/mobile/image-header.jpg"); */
+        /* background: url("/images/desktop/image-header.jpg"); */
+        background: url("/sunnyside-landing-page/images/desktop/image-header.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -351,7 +351,6 @@ nav {
         font-size: 2.4rem;
         height: 275px;
         background: url("/sunnyside-landing-page/images/icon-arrow-down.svg");
-        /* background: url("/sunnyside-landing-page/images/icon-arrow-down.svg"); */
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: 30px;
