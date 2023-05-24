@@ -365,6 +365,7 @@ nav {
 
     .right-side {
         display: flex;
+        flex-direction: row;
         background-color: transparent;
         align-items: center;
     }

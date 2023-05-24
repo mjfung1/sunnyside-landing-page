@@ -249,9 +249,9 @@
   <script>
     const hamburger = document.querySelector(".hamburger");
     const menu = document.querySelector(".right-side");
-    const screenWidth = document.documentElement.clientWidth;
+    const screenWidth = window.innerWidth;
 
-    if (screenWidth > 500) {
+    if (screenWidth > 334) {
       menu.classList.remove("show-menu")
     }
     hamburger.addEventListener("click", () => menu.classList.toggle("show-menu"))
